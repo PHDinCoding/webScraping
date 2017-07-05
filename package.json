@@ -1,0 +1,29 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "A Scraper for news",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PHDinCoding/webScraping.git"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "Aashish",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PHDinCoding/webScraping/issues"
+  },
+  "homepage": "https://github.com/PHDinCoding/webScraping#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.11.1"
+  }
+}
